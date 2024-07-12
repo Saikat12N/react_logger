@@ -1,0 +1,9 @@
+List of Test Cases:
+1-renders counter component with initial count value
+2-increments count value when increase button is clicked
+3-decrements count value when decrease button is clicked
+4-resets count value to 0 when reset button is clicked
+---------------------------
+Passed :    1-renders counter component with initial count value. 
+Passed :    2-increments count value when increase button is clicked. 
+Passed :    4-resets count value to 0 when reset button is clicked. 
