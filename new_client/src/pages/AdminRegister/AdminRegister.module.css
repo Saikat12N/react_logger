@@ -1,0 +1,42 @@
+.formContainer {
+  padding: 25px;
+  background-color: antiquewhite;
+  border: 2px solid navy;
+  border-radius: 10px;
+  width: 75%;
+  margin: auto;
+}
+
+.formHeaders {
+  color: black;
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-stretch: wider;
+}
+
+.section_one,
+.section_two {
+  width: 50%; /* Adjust the width as needed */
+  float: left;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+@media (max-width: 900px) {
+  .section_one,
+  .section_two {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure it spans the full width */
+  }
+}

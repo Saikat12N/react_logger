@@ -1,0 +1,17 @@
+.modalmessage {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: large;
+  font-style: italic;
+  background-color: rgb(94, 44, 20);
+  color: white;
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  position: fixed; /* Fixed position to keep it on the screen */
+  top: 20px; /* Adjust top position as needed */
+  right: 20px; /* Adjust right position as needed */
+  z-index: 1000; /* Ensure it appears above other content */
+  padding: 10px; /* Add padding inside the modal */
+}
